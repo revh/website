@@ -4,4 +4,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     site: 'https://revh.github.io',
     base: '/revh.github.io',
+    output: 'static',
 });
